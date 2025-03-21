@@ -14,7 +14,7 @@
   --large-font: 1.2em;
 }
 
-#categories img {
+.product-grid img {
   width: 150px;
   height: 150px;
 }
@@ -88,6 +88,10 @@ header {
   width: 90px;
   height: 90px;
   margin-top: -1.3em;
+}
+
+section.products {
+  margin-top: 20px;
 }
 
 .logo--square>div {
@@ -236,11 +240,34 @@ button {
 }
 
 .cta-section {
+
   display: flex;
   flex-direction: column;
   position: absolute;
   left: 10px;
   bottom: 10px;
+  background-color: #525b0f;
+  border: solid black 5px;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.newsletter-section {
+
+  background-color: #525b0f;
+  border: solid black 5px;
+  border-radius: 10px;
+  width: 50%;
+  color: white;
+}
+
+dialog {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 10px;
+  top: 100px;
   background-color: #525b0f;
   border: solid black 5px;
   border-radius: 10px;
@@ -252,7 +279,8 @@ button {
   font-weight: bolder;
 }
 
-#callBtn {
+#callBtn,
+#callBtn1 {
   background-color: #f0a868;
   color: black;
   font-weight: bolder;
@@ -260,11 +288,13 @@ button {
 
 }
 
-#callBtn:hover {
+#callBtn:hover,
+#callBtn1:hover {
   background-color: lightblue;
 }
 
-.modal-section {
+.modal-section,
+.modal-section1 {
   background-color: lightblue;
 
 }
@@ -280,7 +310,8 @@ label {
   margin-bottom: 10px;
 }
 
-.modal {
+#modal,
+#modal1 {
   display: none;
   position: fixed;
   z-index: 1;
