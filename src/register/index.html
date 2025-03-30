@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Register</title>
+    <script src="../js/register.js" type="module"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+
+</head>
+
+<body>
+    <header id="main-header" class="divider">
+    </header>
+
+    <main class="divider">
+        <section class="register">
+            <h2>Register</h2>
+            <div class="register-form">
+                <form action="/user/index.html" method="POST">
+                    <label for="first">First Name:</label>
+                    <input type="text" name="account_firstname" id="accountFirstname" required>
+                    <label for="last">Last Name:</label>
+                    <input type="text" name="account_firstname" id="accountLastname" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="account_email" id="accountEmail" required>
+                    <label for="address">Address:</label>
+                    <input type="address" name="account_address" id="accountAddress" required>
+
+
+                    <button type="submit">Register</button>
+
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer"></footer>
+</body>
+
+</html>
